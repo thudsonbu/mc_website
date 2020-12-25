@@ -4,8 +4,6 @@ var express        = require("express"),
     bodyParser     = require("body-parser"),
     methodOverride = require("method-override");
 
-var routes = require("./routes");
-
 // body parser to read form data
 app.use(bodyParser.urlencoded({extended: true}));
 
@@ -13,7 +11,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.set("view engine", "ejs");
 
 // connect to stylessheets
-app.use(express.static(__dirname + "/assets"));
+app.use(express.static(__dirname));
 
 // Method override (to fix the stupidity of forms)
 app.use(methodOverride("_method"));
