@@ -7926,7 +7926,7 @@ form .input-error-2:focus {
 }
 
 .fs-slide-1 {
-  background: url(http://placehold.it/2440x1578);
+  background: url(../images/ourFacilities.jpg);
   background-size: cover;
 }
 
@@ -7946,6 +7946,11 @@ form .input-error-2:focus {
   color: #ececec;
 }
 
+.fs-slide-1 .hero-content .hero-lead span {
+  font-weight: 300;
+  font-size: .75em;
+}
+
 .fs-slide-1 .hero-content .hero-subheading {
   margin-top: 100px;
   margin-bottom: 20px;
@@ -7953,7 +7958,7 @@ form .input-error-2:focus {
 }
 
 .fs-slide-2 {
-  background: url(http://placehold.it/2440x1578);
+  background: url(../images/learnToPlay.jpg);
   background-size: cover;
 }
 
@@ -7967,7 +7972,7 @@ form .input-error-2:focus {
 }
 
 .fs-slide-2 .hero-content .hero-lead {
-  font-size: 6.5em;
+  font-size: 6em;
   font-weight: 700;
   letter-spacing: 5px;
   color: #ececec;
@@ -7984,7 +7989,7 @@ form .input-error-2:focus {
 }
 
 .fs-slide-3 {
-  background: url(http://placehold.it/2440x1578);
+  background: url(../images/playGreatTennis.jpg);
   background-size: cover;
 }
 
@@ -7993,15 +7998,14 @@ form .input-error-2:focus {
 }
 
 .fs-slide-3 .hero-content {
-  text-align: center;
+  padding-right: 10%;
+  text-align: right;
 }
 
 .fs-slide-3 .hero-content .hero-lead {
-  margin-bottom: 35px;
-  font-family: "Open Sans", "Montserrat", "Helvetica Neue", Helvetica, sans-serif;
-  font-size: 4em;
-  font-weight: 800;
-  letter-spacing: 15px;
+  font-size: 6em;
+  font-weight: 700;
+  letter-spacing: 5px;
   color: #ececec;
 }
 
@@ -8010,6 +8014,38 @@ form .input-error-2:focus {
 }
 
 .fs-slide-3 .hero-content .hero-subheading {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  color: #999;
+}
+
+.fs-slide-4 {
+  background: url(../images/haveFun.jpg);
+  background-size: cover;
+}
+
+.fs-slide-4 .bg-overlay {
+  background: rgba(17, 17, 17, 0.7);
+}
+
+.fs-slide-4 .hero-content {
+  text-align: center;
+}
+
+.fs-slide-4 .hero-content .hero-lead {
+  margin-bottom: 35px;
+  font-family: "Open Sans", "Montserrat", "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 7em;
+  font-weight: 800;
+  letter-spacing: 15px;
+  color: #ececec;
+}
+
+.fs-slide-4 .hero-content .hero-lead span {
+  font-weight: 300;
+}
+
+.fs-slide-4 .hero-content .hero-subheading {
   margin-top: 100px;
   margin-bottom: 20px;
   color: #999;

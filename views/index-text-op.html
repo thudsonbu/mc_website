@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Meadow Creek Tennis Club - Home</title>
+        <title>Definity - Text Slider Onepage</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         
@@ -30,12 +30,11 @@
         <!-- JS -->
         <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
-    <body id="page-top">
+    <body id="page-top" data-spy="scroll" data-target=".navbar">
         
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-
 
 
         <!-- ========== Preloader ========== -->
@@ -43,191 +42,91 @@
         <div class="preloader">
           <img src="assets/images/loader.svg" alt="Loading...">
         </div>
-        
+
 
 
         <!-- ========== Navigation ========== -->
 
-        <nav class="navbar navbar-default navbar-fixed-top mega navbar-trans">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
+        <nav class="navbar navbar-default navbar-fixed-top mega navbar-trans navbar-fw">
+          <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <!-- Logo -->
+            <a class="navbar-brand" href="index.html"><img class="navbar-logo" src="assets/images/logo.png" alt="Definity - Logo"></a>
+          </div>
 
-              <!-- Logo -->
-              <a class="navbar-brand" href="index.html"><img class="navbar-logo" src="assets/images/logo.png" alt="Definity - Logo"></a>
-            </div><!-- / .navbar-header -->
-
-            <!-- Navbar Links -->
-            <div id="navbar" class="navbar-collapse collapse">
-              <!-- Navbar Links Right -->
-              <ul class="nav navbar-nav">
-
-                <!-- Home -->
-                <li class="dropdown"><a href="#home">Home<span class="sr-only"></span></a></li>
-
-                <!-- About Us -->
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="350" role="button" aria-haspopup="true" aria-expanded="false">About Us<span class="caret"></span></a>
-                  <ul class="dropdown-menu">
-                    <li class="dropdown-header">About Us</li>
-                    <li role="separator" class="divider"></li>
-                    <li><a href="pages/blog/blog-left-sidebar.html">Monthly News</a></li>
-                    <li><a href="pages/blog/blog-right-sidebar.html">Membership</a></li>
-                    <li><a href="pages/blog/blog-2col.html">Contact Us</a></li>
-                    <li><a href="pages/blog/blog-3col.html">Employment</a></li>
-                    <li><a href="pages/blog/blog-masonry-2col.html">Location</a></li>
-                  </ul>
-                </li><!-- / About Us -->
-
-                <!-- Our Team -->
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="350" role="button" aria-haspopup="true" aria-expanded="false">Our Team<span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                        <li class="dropdown-header">Our Team</li>
-                        <li role="separator" class="divider"></li>
-                        <li><a href="pages/blog/blog-left-sidebar.html">Meet the Team</a></li>
-                        <li><a href="pages/blog/blog-right-sidebar.html">Employment</a></li>
-                    </ul>
-                </li><!-- / Our Team -->
-
-                <!-- Tennis Programs -->
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="350" role="button" aria-haspopup="true" aria-expanded="false">Tennis Programs<span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                        <li class="dropdown-header">Tennis Programs</li>
-                        <li role="separator" class="divider"></li>
-                        <li><a href="tennisPrograms/ladiesTennis.ejs">Ladies Tennis</a></li>
-                        <li><a href="tennisPrograms/ladiesTennis.ejs">Men's Tennis</a></li>
-                        <li><a href="tennisPrograms/ladiesTennis.ejs">Junior Tennis</a></li>
-                        <li><a href="tennisPrograms/ladiesTennis.ejs">Tennis Drills</a></li>
-                        <li><a href="tennisPrograms/ladiesTennis.ejs">Learn to Play Tennis</a></li>
-                    </ul>
-                </li><!-- / Tennis Programs -->
-
-                <!-- Pickleball -->
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="350" role="button" aria-haspopup="true" aria-expanded="false">Pickleball<span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                        <li class="dropdown-header">Pickleball</li>
-                        <li role="separator" class="divider"></li>
-                        <li><a href="pickleball/pickleball.ejs">Pickleball</a></li>
-                        <li><a href="pickleball/platform.ejs">Platform</a></li>
-                    </ul>
-                </li><!-- Pickleball -->
-
-                <!-- Fitness -->
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="350" role="button" aria-haspopup="true" aria-expanded="false">Fitness<span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                        <li class="dropdown-header">Fitness</li>
-                        <li role="separator" class="divider"></li>
-                        <li><a href="fitness/pickleball.ejs">Fitness Programs</a></li>
-                        <li><a href="fitness/pickleball.ejs">Silver Sneakers</a></li>
-                        <li><a href="fitness/pickleball.ejs">Massage and Spa</a></li>
-                    </ul>
-                </li><!-- Fitness -->
-
-                <!-- Events -->
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="350" role="button" aria-haspopup="true" aria-expanded="false">Events<span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                        <li class="dropdown-header">Events</li>
-                        <li role="separator" class="divider"></li>
-                        <li><a href="fitness/pickleball.ejs">Socials</a></li>
-                        <li><a href="fitness/pickleball.ejs">Tournaments</a></li>
-                    </ul>
-                </li><!-- Events -->
-
-              </ul><!-- / .nav .navbar-nav .navbar-right -->
-            </div><!--/.navbar-collapse -->
-          </div><!-- / .container -->
+          <!-- Navbar Links -->
+          <div id="navbar" class="navbar-collapse collapse page-scroll navbar-right">
+            <ul class="nav navbar-nav">
+              <li><a href="#home">Home<span class="sr-only"></span></a></li>
+              <li><a href="#services">Services<span class="sr-only"></span></a></li>
+              <li><a href="#about">About<span class="sr-only"></span></a></li>
+              <li><a href="#testimonials">Testimonials<span class="sr-only"></span></a></li>
+              <li><a href="#portfolio">Portfolio<span class="sr-only"></span></a></li>
+              <li><a href="#blog">Blog<span class="sr-only"></span></a></li>
+              <li><a href="#contact">Contact<span class="sr-only"></span></a></li>
+              <li><a href="index.html">All Demos<span class="sr-only"></span></a></li>
+            </ul><!-- / .nav .navbar-nav -->              
+          </div><!--/.navbar-collapse -->
         </nav><!-- / .navbar -->
+
+
 
         <!-- ========== Hero Cover ========== -->
 
-        <div class="fs-slider-hero">
-          <div class="fs-slider">
-            
-            <!-- Slide 1 -->
-            <div class="fs-slider-item fs-slide-1">
-                <div class="bg-overlay">
-                                    
-                    <!-- Hero Content -->
-                    <div class="hero-content-wrapper">
-                        <div class="hero-content">
-                            
-                            <h1 class="hero-lead">Meadow Creek Tennis <br><span>Denvers Finest</span></h1>
+        <div id="home" class="text-slider-hero">
+          <div class="bg-overlay">
+            <div class="text-slider">
+              
+              <!-- Slide 1 -->
+              <div class="hero-content-wrapper">
+                <div class="hero-content">
+                  
+                  <h1 class="hero-lead wow fadeInUp" data-wow-duration="2s">Create</h1>
+                  <h4 class="h-alt hero-subheading wow fadeIn" data-wow-delay=".5s" data-wow-duration="1.5s">Multipage &amp; Onepage HTML5 Templates</h4>
+                  <a href="#services" class="btn wow fadeIn" data-wow-delay=".7s" data-wow-duration="2s">Learn More</a>
 
-                        </div>
-                    </div>
-  
-                </div><!-- / .bg-overlay -->
-            </div><!-- / .fs-slide-1 -->
-
-            <!-- Slide 2 -->
-            <div class="fs-slider-item fs-slide-2">
-                <div class="bg-overlay">
-                                
-                    <!-- Hero Content -->
-                    <div class="hero-content-wrapper">
-                        <div class="hero-content">
-                        
-                            <h1 class="hero-lead">Learn<br> From<br> The Best</h1>
-
-                        </div>
-                    </div>
-
-                </div><!-- / .bg-overlay -->
-            </div><!-- / .fs-slide-2 -->
-
-            <!-- Slide 3 -->
-            <div class="fs-slider-item fs-slide-3">
-              <div class="bg-overlay">
-                              
-                  <!-- Hero Content -->
-                  <div class="hero-content-wrapper">
-                      <div class="hero-content">
-                      
-                          <h1 class="hero-lead">Play <br> Great<br> Tennis</h1>
-
-                      </div>
-                  </div>
-
-              </div><!-- / .bg-overlay -->
-          </div><!-- / .fs-slide-3 -->
-
-            <!-- Slide 4 -->
-          <div class="fs-slider-item fs-slide-4">
-              <div class="bg-overlay">
-                                
-                <!-- Hero Content -->
-                <div class="hero-content-wrapper">
-                    <div class="hero-content">
-                        
-                        <h1 class="hero-lead"><span>Have</span> Fun</h1>
-                        
-                        <a href="#services" class="btn-light">Get Started</a>
-
-                    </div>
                 </div>
+              </div><!-- / .hero-content-wrapper -->
 
-              </div><!-- / .bg-overlay -->
-          </div><!-- / .fs-slide-4 -->
+              <!-- Slide 2 -->
+              <div class="hero-content-wrapper">
+                <div class="hero-content">
+                  
+                  <h1 class="hero-lead wow fadeInUp" data-wow-duration="2s">Inspire</h1>
+                  <h4 class="h-alt hero-subheading wow fadeIn" data-wow-delay=".5s" data-wow-duration="1.5s">Multipage &amp; Onepage HTML5 Templates</h4>
+                  <a href="#services" class="btn btn-light wow fadeIn" data-wow-delay=".7s" data-wow-duration="2s">Learn More</a>
 
-          </div><!-- / .fs-slider -->
+                </div>
+              </div><!-- / .hero-content-wrapper -->
 
-          <!-- Scroller -->
-          <a href="#services" class="scroller">
-            <span class="scroller-text">scroll down</span>
-            <span class="linea-basic-magic-mouse"></span>
-          </a>
+              <!-- Slide 3 -->
+              <div class="hero-content-wrapper">
+                <div class="hero-content">
+                  
+                  <h1 class="hero-lead wow fadeInUp" data-wow-duration="2s">Love</h1>
+                  <h4 class="h-alt hero-subheading wow fadeIn" data-wow-delay=".5s" data-wow-duration="1.5s">Multipage &amp; Onepage HTML5 Templates</h4>
+                  <a href="#services" class="btn wow fadeIn" data-wow-delay=".7s" data-wow-duration="2s">Learn More</a>
 
-        </div><!-- / .fs-slider-hero -->
+                </div>
+              </div><!-- / .hero-content-wrapper -->
+
+            </div><!-- / .text-slider -->
+            
+            <!-- Scroller -->
+            <a href="#services" class="scroller">
+              <span class="scroller-text">scroll down</span>
+              <span class="linea-basic-magic-mouse"></span>
+            </a>
+
+          </div><!-- / .bg-overlay -->
+        </div><!-- / .text-slider-hero -->
+
+
 
         <!-- ========== Feature - Cards 2 ========== -->
 
@@ -235,8 +134,8 @@
           <section class="container section ft-cards-2">
             
             <header class="sec-heading">
-              <h2>We have great facilities</h2>
-              <span class="subheading">With seven indoor, three outdoor, and 3 platform tennis courts you can always find a place to play.</span>
+              <h2>What we do</h2>
+              <span class="subheading">Lorem ipsum dolor sit amet, consectetur</span>
             </header>
 
             <div class="row">
@@ -245,20 +144,20 @@
 
                 <!-- Item 1 -->
                 <div class="ft-card-item wow fadeInUp" data-wow-duration="1.2s">
-                  <img src="../assets/images/sevenIndoorCourts.png" alt="Feature Image">
+                  <img src="http://placehold.it/350x370" alt="Feature Image">
                   <div class="ft-content">
-                    <h5>Seven Indoor Courts</h5>
-                    <p>Seven heated indoor courts with clean and new surfaces.</p>
+                    <h5>Service One</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
                     <a href="#" class="link-btn">Learn More <span class="linea-arrows-slim-right"></span></a>
                   </div>
                 </div><!-- / .ft-card-item -->
 
                 <!-- Item 2 -->
                 <div class="ft-card-item wow fadeInUp" data-wow-delay=".2s" data-wow-duration="1.2s">
-                  <img src="../assets/images/twoPickleballCourts.jpg" alt="Feature Image">
+                  <img src="http://placehold.it/350x370" alt="Feature Image">
                   <div class="ft-content">
-                    <h5>Two Pickleball Courts</h5>
-                    <p>Two lighted outdoor pickleball courst great for all seasons.</p>
+                    <h5>Service Three</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
                     <a href="#" class="link-btn">Learn More <span class="linea-arrows-slim-right"></span></a>
                   </div>
                 </div><!-- / .ft-card-item -->
@@ -269,20 +168,20 @@
 
                 <!-- Item 3 -->
                 <div class="ft-card-item wow fadeInUp" data-wow-duration="1.2s">
-                  <img src="../assets/images/threeOutdoorCourts.jpg" alt="Feature Image">
+                  <img src="http://placehold.it/350x370" alt="Feature Image">
                   <div class="ft-content">
-                    <h5>Three Outdoor Courts</h5>
-                    <p>Three outdoor courts right on site and freshly finished.</p>
+                    <h5>Service Two</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
                     <a href="#" class="link-btn">Learn More <span class="linea-arrows-slim-right"></span></a>
                   </div>
                 </div><!-- / .ft-card-item -->
 
                 <!-- Item 4 -->
                 <div class="ft-card-item wow fadeInUp" data-wow-delay=".2s" data-wow-duration="1.2s">
-                  <img src="../assets/images/fitnessCenter.jpg" alt="Feature Image">
+                  <img src="http://placehold.it/350x370" alt="Feature Image">
                   <div class="ft-content">
-                    <h5>Fitness Center & More</h5>
-                    <p>Meadow Creek also has a full gym, yogo studio and indoor spa to workout at.</p>
+                    <h5>Service Four</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
                     <a href="#" class="link-btn">Learn More <span class="linea-arrows-slim-right"></span></a>
                   </div>
                 </div><!-- / .ft-card-item -->
@@ -293,18 +192,275 @@
           </section><!-- / .container -->
         </div><!-- / .gray-bg -->
 
-        <!-- ========== Portfolio ========== -->
 
-        <section class="container portfolio-layout portfolio-columns-boxed">
+
+        <!-- ========== Feature - Steps Numbers ========== -->
+
+        <section id="about" class="container ft-steps-numbers">
+            <div class="row section">
+
+              <header class="sec-heading ws-s">
+                <h2>Our work process</h2>
+                <span class="subheading">Lorem ipsum dolor sit amet, consectetur</span>
+              </header>
+              
+              <!-- Step 1 -->
+              <div class="col-lg-4 col-md-6 mb-sm-100 ft-item wow fadeIn" data-wow-duration="1s">
+                <span class="ft-nbr">01</span>
+                <h4>Design</h4>
+                <p>Lariatur, excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est</p>
+              </div>
+
+              <!-- Step 2 -->
+              <div class="col-lg-4 col-md-6 mb-sm-100 ft-item wow fadeIn" data-wow-duration="1s" data-wow-delay=".3s">
+                <span class="ft-nbr">02</span>
+                <h4>Develop</h4>
+                <p>Lariatur, excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est</p>
+              </div>
+
+              <!-- Step 3 -->
+              <div class="col-lg-4 col-md-6 ft-item wow fadeIn" data-wow-duration="1s" data-wow-delay=".6s">
+                <span class="ft-nbr">03</span>
+                <h4>Deploy</h4>
+                <p>Lariatur, excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est</p>
+              </div>
+
+            </div><!-- / .row -->
+            
+            <!-- CTA Button -->
+            <div class="row ws-m">
+              <div class="text-center">
+                <a href="#contact" class="btn">Get a free quote</a>
+              </div>
+            </div><!-- / .row -->
+
+        </section><!-- / .container -->
+
+
+
+        <!-- ========== Feature - Tabs ========== -->
+
+        <div class="container-fluid ft-tabs">
           <div class="row">
-            <header class="sec-heading">
-              <h2>Some of our services</h2>
-              <span class="subheading">What we can offer you at Meadow Creek.</span>
-            </header>
+            
+            <!-- Tabs -->
+            <div class="col-lg-4 no-gap">
+              <ul class="tabs-list" role="tablist">
+
+                <!-- Tab 1 -->
+                <li role="presentation" class="active">
+                  <a href="#tab1" aria-controls="tab1" role="tab" data-toggle="tab">
+                    <span class="linea-basic-bolt tab-icon"></span>
+                    <div class="tab-group">
+                      <span class="tab-heading">Lightning Fast</span>
+                      <span class="tab-info">Lorem ipsum dolor sit amet</span>
+                    </div>
+                  </a>
+                </li>
+
+                <!-- Tab 2 -->
+                <li role="presentation">
+                  <a href="#tab2" aria-controls="tab2" role="tab" data-toggle="tab">
+                    <span class="linea-basic-server2 tab-icon"></span>
+                    <div class="tab-group">
+                      <span class="tab-heading">Dedicated Server</span>
+                      <span class="tab-info">Lorem ipsum dolor sit amet</span>
+                    </div>
+                  </a>
+                </li>
+
+                <!-- Tab 3 -->
+                <li role="presentation">
+                  <a href="#tab3" aria-controls="tab3" role="tab" data-toggle="tab">
+                    <span class="linea-basic-share tab-icon"></span>
+                    <div class="tab-group">
+                      <span class="tab-heading">Connected 24/7</span>
+                      <span class="tab-info">Lorem ipsum dolor sit amet</span>
+                    </div>
+                  </a>
+                </li>
+
+              </ul>
+            </div><!-- / .col-lg-4 -->
+
+
+            <!-- Tabs Content -->
+            <div class="col-lg-8 no-gap tab-content">
+
+              <!-- Tab Content 1 -->
+              <div id="tab1" role="tabpanel" class="tab-pane fade in active">
+                <div class="col-md-6 tab-content-text">
+                  <h4>Tab content one</h4>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque cupiditate, accusantium laboriosam aut deleniti excepturi at nesciunt sint dolor earum quae quidem eius nostrum quas sed suscipit eligendi, aperiam cumque. Culpa maxime, cupiditate nemo sint suscipit aperiam.</p>
+                  <button class="btn">Get it now</button>
+                </div>
+
+                <div class="col-md-6 tab-content-image">
+                  <img src="http://placehold.it/760x485" alt="Tab Image" class="img-responsive wow fadeInRight" data-wow-duration=".8s">
+                </div>
+              </div><!-- / #tab1 -->
+
+              <!-- Tab Content 2 -->
+              <div id="tab2" role="tabpanel" class="tab-pane fade">
+                <div class="col-md-6 tab-content-text">
+                  <h4>Tab content two</h4>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque cupiditate, accusantium laboriosam aut deleniti excepturi at nesciunt sint dolor earum quae quidem eius nostrum quas sed suscipit eligendi, aperiam cumque. Culpa maxime, cupiditate nemo sint suscipit aperiam.</p>
+                  <button class="btn">Get it now</button>
+                </div>
+
+                <div class="col-md-6 tab-content-image">
+                  <img src="http://placehold.it/760x485" alt="Tab Image" class="img-responsive wow fadeInRight" data-wow-duration=".8s">
+                </div>
+              </div><!-- / #tab1 -->
+
+              <!-- Tab Content 3 -->
+              <div id="tab3" role="tabpanel" class="tab-pane fade">
+                <div class="col-md-6 tab-content-text">
+                  <h4>Tab content three</h4>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque cupiditate, accusantium laboriosam aut deleniti excepturi at nesciunt sint dolor earum quae quidem eius nostrum quas sed suscipit eligendi, aperiam cumque. Culpa maxime, cupiditate nemo sint suscipit aperiam.</p>
+                  <button class="btn">Get it now</button>
+                </div>
+
+                <div class="col-md-6 tab-content-image">
+                  <img src="http://placehold.it/760x485" alt="Tab Image" class="img-responsive wow fadeInRight" data-wow-duration=".8s">
+                </div>
+              </div><!-- / #tab1 -->
+            </div><!-- / .col-lg-8 -->
+
           </div><!-- / .row -->
+        </div><!-- / .container-fluid -->
+
+
+
+        <!-- ========== Cricle Counters - Parallax ========== -->
+
+        <div id="skillsCircles" class="circles-counters">
+          <div class="container">
+            <div id="counters" class="row count-wrapper">
+              
+              <!-- Item 1 -->
+              <div class="col-sm-6 col-lg-3 circle-item wow zoomIn" data-wow-duration=".6s" data-wow-delay=".3s">
+                <div class="chart" data-percent="75"><span class="circle-icon linea-basic-gear"></span></div>
+                <span class="circle-text">Web Development</span>
+              </div>
+
+              <!-- Item 2 -->
+              <div class="col-sm-6 col-lg-3 circle-item wow zoomIn" data-wow-duration=".6s">
+                <div class="chart" data-percent="75"><span class="circle-icon linea-basic-display"></span></div>
+                <span class="circle-text">Web Design</span>
+              </div>
+
+              <!-- Item 3 -->
+              <div class="col-sm-6 col-lg-3 circle-item wow zoomIn" data-wow-duration=".6s">
+                <div class="chart" data-percent="75"><span class="circle-icon linea-basic-photo"></span></div>
+                <span class="circle-text">Photography</span>
+              </div>
+
+              <!-- Item 4 -->
+              <div class="col-sm-6 col-lg-3 circle-item wow zoomIn" data-wow-duration=".6s" data-wow-delay=".3s">
+                <div class="chart" data-percent="75"><span class="circle-icon linea-basic-star"></span></div>
+                <span class="circle-text">Marketing</span>
+              </div>
+
+            </div><!-- / .row -->
+          </div><!-- / .container -->
+        </div><!-- / .circles-counters -->
+
+
+
+        <!-- ========== Testimonials ========== -->
+        
+        <div id="testimonials" class="gray-bg">
+          <section class="container testimonials-3col">
+            <div class="row section">
+
+              <header class="sec-heading">
+                <h2>What people say about us</h2>
+                <span class="subheading">Read some of the testimonials from our amazing clients</span>
+              </header>
+              
+              <!-- Item 1 -->
+              <div class="col-md-4 mb-sm-50">
+                <div class="t-item wow fadeIn" data-wow-duration="1s">
+                  <img src="assets/images/avatar-placeholder.png" alt="Testimonial">
+                  <blockquote>
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae</p>
+                    <footer>
+                      <cite>by Julian Schmitz<span>Google</span></cite>
+                    </footer>
+                  </blockquote>
+                  <span class="et-quote t-icon"></span>
+                </div><!-- / .t-item -->
+              </div><!-- / .col-md-4 -->
+
+              <!-- Item 2 -->
+              <div class="col-md-4 mb-sm-50">
+                <div class="t-item wow fadeIn"  data-wow-duration="1s" data-wow-delay=".3s">
+                  <img src="assets/images/avatar-placeholder.png" alt="Testimonial">
+                  <blockquote>
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae</p>
+                    <footer>
+                      <cite>by Cecilia Acosta<span>Apple</span></cite>
+                    </footer>
+                  </blockquote>
+                  <span class="et-quote t-icon"></span>
+                </div><!-- / .t-item -->
+              </div><!-- / .col-md-4 -->
+
+              <!-- Item 3 -->
+              <div class="col-md-4">
+                <div class="t-item wow fadeIn" data-wow-duration="1s" data-wow-delay=".6s">
+                  <img src="assets/images/avatar-placeholder.png" alt="Testimonial">
+                  <blockquote>
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae</p>
+                    <footer>
+                      <cite>by Gerald Pena<span>Facebook</span></cite>
+                    </footer>
+                  </blockquote>
+                  <span class="et-quote t-icon"></span>
+                </div><!-- / .t-item -->
+              </div><!-- / .col-md-4 -->
+
+            </div><!-- / .row -->
+            
+            <!-- Client Slider -->
+            <div class="row">
+              <ul class="t-clients clients-slider ws-m">
+                <li><a href="#"><img src="assets/images/client-logo-placeholder.png" alt="Client"></a></li>
+                <li><a href="#"><img src="assets/images/client-logo-placeholder.png" alt="Client"></a></li>
+                <li><a href="#"><img src="assets/images/client-logo-placeholder.png" alt="Client"></a></li>
+                <li><a href="#"><img src="assets/images/client-logo-placeholder.png" alt="Client"></a></li>
+                <li><a href="#"><img src="assets/images/client-logo-placeholder.png" alt="Client"></a></li>
+                <li><a href="#"><img src="assets/images/client-logo-placeholder.png" alt="Client"></a></li>
+              </ul><!-- / .t-clients -->
+            </div><!-- / .row -->
+
+          </section><!-- / .container -->
+        </div><!-- / .gray-bg -->
+
         
 
-          <div class="row ws-m">
+        <!-- ========== Portfolio ========== -->
+
+        <section id="portfolio" class="container-fluid portfolio-layout portfolio-columns-fw">
+          <div class="row">
+            <header class="sec-heading">
+              <h2>Some of our projects</h2>
+              <span class="subheading">Lorem ipsum dolor sit amet consectetur adipisicing</span>
+            </header>
+          </div><!-- / .row -->
+          
+          <!-- Filters -->
+          <div class="row">
+            <ul id="pfolio-filters" class="portfolio-filters">
+              <li class="active"><a href="#" data-filter="*">All</a></li>
+              <li><a href="#" data-filter=".webdesing">Webdesign</a></li>
+              <li><a href="#" data-filter=".print">Print</a></li>
+              <li><a href="#" data-filter=".photo">Photography</a></li>
+            </ul>
+          </div>
+
+          <div class="row">
             <div id="pfolio">
               
               <!-- Item 1 -->
@@ -313,11 +469,11 @@
                   <img src="http://placehold.it/990x650/aaa/ccc" alt="Project Example">
                   <div class="p-hover">
                     <div class="p-content">
-                      <h4>Professional Coaching</h4>
-                      <h6 class="subheading">Professional coaching from some of the best pros in colorado.</h6>
+                      <h4>Project Name</h4>
+                      <h6 class="subheading">Sub heading for the project</h6>
                     </div>
                   </div>
-                  <a href="portfolio-single-1.html" class="open-btn"><i class="fa fa-expand"></i></a>
+                  <a href="http://placehold.it/990x650" class="open-btn open-gallery"><i class="fa fa-expand"></i></a>
                 </div>
               </div><!-- / .portfolio-item -->
 
@@ -327,11 +483,11 @@
                   <img src="http://placehold.it/990x650" alt="Project Example">
                   <div class="p-hover">
                     <div class="p-content">
-                      <h4>Tennis Drills</h4>
-                      <h6 class="subheading">Weekly drills to sharpen your skills with other players.</h6>
+                      <h4>Project Name</h4>
+                      <h6 class="subheading">Sub heading for the project</h6>
                     </div>
                   </div>
-                  <a href="portfolio-single-1.html" class="open-btn"><i class="fa fa-expand"></i></a>
+                  <a href="http://placehold.it/990x650" class="open-btn open-gallery"><i class="fa fa-expand"></i></a>
                 </div>
               </div><!-- / .portfolio-item -->
 
@@ -341,11 +497,11 @@
                   <img src="http://placehold.it/990x650/aaa/ccc" alt="Project Example">
                   <div class="p-hover">
                     <div class="p-content">
-                      <h4>Tennis Leagues</h4>
-                      <h6 class="subheading">Leagues where everyone can get some match time.</h6>
+                      <h4>Project Name</h4>
+                      <h6 class="subheading">Sub heading for the project</h6>
                     </div>
                   </div>
-                  <a href="portfolio-single-1.html" class="open-btn"><i class="fa fa-expand"></i></a>
+                  <a href="http://placehold.it/990x650" class="open-btn open-gallery"><i class="fa fa-expand"></i></a>
                 </div>
               </div><!-- / .portfolio-item -->
 
@@ -355,11 +511,11 @@
                   <img src="http://placehold.it/990x650" alt="Project Example">
                   <div class="p-hover">
                     <div class="p-content">
-                      <h4>Fitness Classes</h4>
-                      <h6 class="subheading">Regular fitness classes hosted at our facilities.</h6>
+                      <h4>Project Name</h4>
+                      <h6 class="subheading">Sub heading for the project</h6>
                     </div>
                   </div>
-                  <a href="portfolio-single-1.html" class="open-btn"><i class="fa fa-expand"></i></a>
+                  <a href="http://placehold.it/990x650" class="open-btn open-gallery"><i class="fa fa-expand"></i></a>
                 </div>
               </div><!-- / .portfolio-item -->
 
@@ -369,31 +525,31 @@
                   <img src="http://placehold.it/990x650/aaa/ccc" alt="Project Example">
                   <div class="p-hover">
                     <div class="p-content">
-                      <h4>Pickleball</h4>
-                      <h6 class="subheading">Learn to play platform tennis or pickleball.</h6>
+                      <h4>Project Name</h4>
+                      <h6 class="subheading">Sub heading for the project</h6>
                     </div>
                   </div>
-                  <a href="portfolio-single-1.html" class="open-btn"><i class="fa fa-expand"></i></a>
+                  <a href="http://placehold.it/990x650" class="open-btn open-gallery"><i class="fa fa-expand"></i></a>
                 </div>
               </div><!-- / .portfolio-item -->
 
               <!-- Item 6 -->
-              <div class="col-md-4 portfolio-item print webdesing photo">
+              <div class="col-md-4 portfolio-item photo print webdesing">
                 <div class="p-wrapper hover-default">
                   <img src="http://placehold.it/990x650" alt="Project Example">
                   <div class="p-hover">
                     <div class="p-content">
-                      <h4>Much More</h4>
-                      <h6 class="subheading">At meadow creek we have a lot going on.</h6>
+                      <h4>Project Name</h4>
+                      <h6 class="subheading">Sub heading for the project</h6>
                     </div>
                   </div>
-                  <a href="portfolio-single-1.html" class="open-btn"><i class="fa fa-expand"></i></a>
+                  <a href="http://placehold.it/990x650" class="open-btn open-gallery"><i class="fa fa-expand"></i></a>
                 </div>
               </div><!-- / .portfolio-item -->
 
             </div><!-- / #pfolio -->
           </div><!-- / .row -->
-        </section><!-- / .portfolio-columns-boxed -->
+        </section><!-- / .portfolio-columns-fw -->
 
 
 
@@ -403,7 +559,7 @@
           <div class="bg-overlay">
             
             <div class="cta-wrapper">
-              <h3 class="h-alt wow fadeIn" data-wow-delay=".1s" data-wow-duration="1s">Ready to get started?</h3>
+              <h3 class="h-alt wow fadeIn" data-wow-delay=".1s" data-wow-duration="1s">See what we can do for you</h3>
               <a href="#contact" class="btn btn-light btn-large wow fadeIn" data-wow-delay=".3s" data-wow-duration="1s">Get in touch</a>
             </div>
 
@@ -412,70 +568,10 @@
 
 
 
-        <!-- ========== Testimonials ========== -->
-
-        <div class="testimonials-parallax">
-          <div class="bg-overlay">
-            
-            <div class="t-wrapper t-slider">
-
-              <!-- Testimonial 1 -->
-              <blockquote>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
-                <span class="et-quote t-type"></span>
-                <footer>
-                  <cite>
-                    <h5 class="h-alt">Patrick Owens</h5>
-                    <h5>CEO - Company Name</h5>
-                  </cite>
-                </footer>
-              </blockquote>
-
-              <!-- Testimonial 2 -->
-              <blockquote>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
-                <span class="et-quote t-type"></span>
-                <footer>
-                  <cite>
-                    <h5 class="h-alt">Patrick Owens</h5>
-                    <h5>CEO - Company Name</h5>
-                  </cite>
-                </footer>
-              </blockquote>
-              
-              <!-- Testimonial 3 -->
-              <blockquote>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
-                <span class="et-quote t-type"></span>
-                <footer>
-                  <cite>
-                    <h5 class="h-alt">Patrick Owens</h5>
-                    <h5>CEO - Company Name</h5>
-                  </cite>
-                </footer>
-              </blockquote>
-
-            </div><!-- / .t-wrapper -->
-            
-            <!-- Client Slider -->
-            <ul class="t-clients clients-slider">
-              <li><a href="#"><img src="assets/images/client-logo-placeholder.png" alt="Client"></a></li>
-              <li><a href="#"><img src="assets/images/client-logo-placeholder.png" alt="Client"></a></li>
-              <li><a href="#"><img src="assets/images/client-logo-placeholder.png" alt="Client"></a></li>
-              <li><a href="#"><img src="assets/images/client-logo-placeholder.png" alt="Client"></a></li>
-              <li><a href="#"><img src="assets/images/client-logo-placeholder.png" alt="Client"></a></li>
-              <li><a href="#"><img src="assets/images/client-logo-placeholder.png" alt="Client"></a></li>
-            </ul><!-- / .t-clients -->
-
-          </div><!-- / .bg-overlay -->
-        </div><!-- / .testimonials-parallax -->
-
-
-
         <!-- ========== Blog Preview ========== -->
 
         <div class="gray-bg">
-          <section class="section container blog-columns blog-preview">
+          <section id="blog" class="section container blog-columns blog-preview">
             <div class="row">
               
               <header class="sec-heading">
@@ -630,7 +726,7 @@
 
         <!-- ========== Contact ========== -->
 
-        <section class="section contact-1">
+        <section id="contact" class="section contact-1">
           
           <header class="sec-heading">
             <h2>Countact Us</h2>
@@ -739,7 +835,7 @@
 
 
 
-        <!-- ========== Footer Widgets ========== -->
+        <!-- ========== Footer ========== -->
         
         <footer class="footer-widgets">
           <div class="container">
@@ -848,7 +944,7 @@
 
         </footer><!-- / .footer-widgets -->
 
-
+    
 
         <!-- ========== Scripts ========== -->
 
