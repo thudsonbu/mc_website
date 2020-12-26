@@ -854,7 +854,10 @@
     margin-top: 50px;
   }
   .fs-slider-hero .fs-slide-3 .hero-content .hero-lead {
-    font-size: 3em;
+    font-size: 5em;
+  }
+  .fs-slider-hero .fs-slide-4 .hero-content .hero-lead {
+    font-size: 5em;
   }
   .agency-hero .hero-wrapper .hero-content {
     padding-left: 35px;
@@ -873,11 +876,12 @@
     padding-right: 35px;
   }
   .fw-slider-hero .fw-slide-1 .hero-content-wrapper .hero-content .hero-lead,
-  .fw-slider-hero .fw-slide-3 .hero-content-wrapper .hero-content .hero-lead {
+  .fw-slider-hero .fw-slide-4 .hero-content-wrapper .hero-content .hero-lead {
     font-size: 3em;
     letter-spacing: 15px;
   }
-  .fw-slider-hero .fw-slide-2 .hero-content-wrapper .hero-content .hero-lead {
+  .fw-slider-hero .fw-slide-2 .hero-content-wrapper .hero-content .hero-lead,
+  .fw-slider-hero .fw-slide-3 .hero-content-wrapper .hero-content .hero-lead {
     font-size: 4em;
   }
 }
